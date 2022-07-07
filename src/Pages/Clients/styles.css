@@ -1,0 +1,25 @@
+.clients__details{
+  position: absolute;
+  left:22%;
+  top: 20%;
+  flex: 0.7;
+}
+.subheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button{
+    position: absolute;
+    left: 80%;
+    width: 100%;
+    margin-top: 20px;
+}
+.clients_table{
+    border: 1px solid lightgray;
+}
+.sort{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}

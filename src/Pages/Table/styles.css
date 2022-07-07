@@ -1,0 +1,122 @@
+.table{
+    margin-top: 50px;
+    width: 100%;
+}
+.table_row{
+    z-index: 1;
+    border: 1px solid lightgray;
+    box-shadow: 0 2px 10px 0px lightgray;
+    padding: 10px;
+    margin-top: 40px;
+
+}
+.table_row > td{
+    padding: 20px;
+    margin: 20px;
+}
+th{
+    margin-bottom: 1px solid black;
+}
+.status{
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px 0px lightgray;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    top: 15px;
+    background-color: #FAFBFC;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .table{
+        margin-top: 50px;
+        flex: 0.7;
+    }
+    .table_row{
+        width: 150%;
+        display: block;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid lightgray;
+        box-shadow: 0 2px 10px 0px lightgray;
+    }
+    .table_row > td{
+        margin: 0px 2px 10px 5px;
+        width: 40%;
+        padding-left: 50%;
+        position: relative;
+        left: 0%;
+        margin-left: 10px;
+    }
+    .table td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        font-weight: 800;
+    }
+    .table_heading{
+        display: none;
+     }
+    th{
+        margin-bottom: 1px solid black;
+    }
+    .status{
+        border: 1px solid lightgray;
+        border-radius: 6px;
+        box-shadow: 0 2px 10px 0px lightgray;
+        width: 50%;
+        align-items: center;
+        position: relative;
+        top: 15px;
+        background-color: #FAFBFC;
+        left: 30%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .table{
+        margin-top: 50px;
+        flex: 0.7;
+    }
+    .table_row{
+        width: 150%;
+        display: block;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid lightgray;
+        box-shadow: 0 2px 10px 0px lightgray;
+    }
+    .table_row > td{
+        margin: 0px 2px 10px 5px;
+        width: 40%;
+        padding-left: 50%;
+        position: relative;
+        left: 0%;
+        margin-left: 10px;
+    }
+    .table td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        font-weight: 800;
+    }
+    .table_heading{
+        display: none;
+     }
+    th{
+        margin-bottom: 1px solid black;
+    }
+    .status{
+        border: 1px solid lightgray;
+        border-radius: 6px;
+        box-shadow: 0 2px 10px 0px lightgray;
+        width: 50%;
+        align-items: center;
+        position: relative;
+        top: 15px;
+        background-color: #FAFBFC;
+        left: 30%;
+    }
+}

@@ -1,0 +1,15 @@
+.tablist{
+    margin: 10px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    width: 100%;
+}
+.tablist >li{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+.tablist>li>ul{
+    margin: 0px 10px;
+}
